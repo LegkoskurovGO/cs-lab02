@@ -19,5 +19,12 @@ int main() {
         cout << "Maximum is " << b << '\n';
     }
     
+    if (a < b) {
+        cout << "Minimum is " << a << '\n';
+    }
+    else {
+        cout << "Minimum is " << b << '\n';
+    }
+    
     return 0;
 }
